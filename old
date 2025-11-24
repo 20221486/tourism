@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <title>visit.baguio | homepage</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="homepage">
+            <table>
+                <tr>
+                    <td>
+                        <h1 id="visit-baguio">visit.baguio</h1>
+                        <!-- <img id="back" src="multimedia/img/back-image.png" width="100%" height="auto"> -->
+                        <img id="front" src="multimedia/img/front-image.png">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
+
+
+/* HOMEPAGE LAYOUT */
+
+body {
+    background-image: url(multimedia/img/back-image.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+/* visit.baguio */
+#visit-baguio {
+    text-align: center;
+}
+#visit-baguio {
+    position: fixed;
+    transform: translate(-50%, -50%) scale(calc(1 / var(--zoom, 1)));
+    transform-origin: center center;
+
+    font-size: 5vw;
+    color: white;
+    z-index: 1;
+}
+
+#front {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    height: auto;
+    z-index: 500000;
+}
