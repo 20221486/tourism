@@ -1,10 +1,6 @@
-@media (min-width: 600px) {
-    #nav_bar {grid-area: 1 / span 6;}
-    .menu {grid-area: 2 / span 1;}
-    .content {grid-area: 2 / span 4;}
-    .facts {grid-area: 2 / span 1;}
-    .footer {grid-area: 3 / span 6;}
-  }
+* {
+  box-sizing: border-box;
+}
 
 /* Navigation Bar */
 
@@ -70,4 +66,5 @@
         filter: drop-shadow(0 0 1rem rgb(250, 162, 61));
         font-size: large;
     }
+
     /*=================================*/
