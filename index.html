@@ -3,37 +3,44 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-        <title>HOME</title>
-        <link rel="stylesheet" href="style.css">
+        <!-- Webpage Title -->
+        <title>Home</title>
+
+            <!-- Essential CSS -->
+            <link rel="stylesheet" href="css/background-image.css">
+            <link rel="stylesheet" href="css/navigation_bar.css">
+
+            <!-- Specific CSS -->
+            <link rel="stylesheet" href="stylesheets/home.css">
     </head>
     <body>
-        <div id="bg"></div>
-            <table id="navigation_header-table">
-                <tr>
-                    <td>
-                        <ul id="nav_bar">
-                            <li>
-                                <a href="index.html">HOME</a>
-                                <a href="catalog.html">CATALOG</a>
-                                <a href="about.html">ABOUT</a>
-                                <a href="contact.html">CONTACT</a>
-                            </li>
+        <!-- Navigation Bar Up Top -->
+        <table id="nav_bar-margin"> <!-- Navigation Bar Margin -->
+            <tr>
+                <td>
+                    <div id="nav_bar-reveal"> <!-- Navigation Bar Hide > Reveal Effect -->
+                        <ul id="nav_bar"> <!-- Navigation Bar Links -->
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="destinations.html">Destinations</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="traveltips.html">Travel Tips</a></li>
+                            <li><a href="booking.html">Booking</a></li>
+                            <li><a href="contact.html">Contact</a></li>
                         </ul>
-                    </td>
-                </tr>
-            </table>
-            <table id="home_header-table">
-                <tr>
-                    <td id="home_header-text">
-                        <h1><span class="text1">Come</span>, <span class="text2">explore</span></h1>
-                        <h1>visit <span class="text3">Baguio City</span>.</h1>
-                        <button id="browse_button" onClick="location.href='catalog.html'">BROWSE CATALOG</button>
-                    </td>
-                </tr>
-            </table>
+                    </div>
+                </td>
+            </tr>
+        </table>
 
-            <footer>
-                <p id="footer-text">© 2024 Baguio Tourism. All rights reserved.</p>
-            </footer>
+        <table id="home_header-margin">
+            <tr>
+                <td id="home_header-text">
+                    <h1><span class="text1">Come</span>, <span class="text2">explore</span></h1>
+                    <h1>visit <span class="text3">Baguio City</span>.</h1>
+                    
+                    <button id="button" onClick="location.href='booking.html'">Book a Tour</button>
+                </td>
+            </tr>
+        </table>
     </body>
 </html>
