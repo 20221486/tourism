@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+
 
 /* Navigation Bar */
 
@@ -68,3 +66,35 @@
     }
 
     /*=================================*/
+/* ============================= */
+/* Mobile responsiveness */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+    /* Stack nav links vertically */
+    #nav_bar {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #nav_bar a {
+        font-size: 4vw;         /* Make text readable on mobile */
+        padding: 12px 20px;
+        width: auto;            /* Don’t stretch full width */
+        margin: 5px 0;
+    }
+
+    /* Optional: reduce reveal animation distance */
+    #nav_bar-reveal a {
+        transform: translateY(-5px);
+    }
+
+    /* Optional: for easier tapping */
+    #nav_bar a:hover {
+        font-size: 4.5vw;       /* Slightly larger hover */
+    }
+}
+
