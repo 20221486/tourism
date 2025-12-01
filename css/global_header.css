@@ -1,8 +1,4 @@
-@media (min-width: 600px) {
-    #global_header-text {grid-area: 1 / span 6;}
-    #global_header-table {grid-area: 1 / span 1;}
-    .text1 {grid-area: 1 / span 4;}
-  }
+
 
 /* Global Text */
     #global_header-text {
@@ -21,3 +17,29 @@
     .text1 {
         color:rgb(250, 162, 61);
     }
+
+/* ============================= */
+/* MOBILE RESPONSIVENESS */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+    /* Main header text */
+    #global_header-text {
+        font-size: 4.5vw;          /* Much more readable on mobile */
+        line-height: 6vw;          /* Looser spacing for phones */
+        text-align: center;        /* Looks better on narrow screens */
+        padding: 0 10px;           /* Prevents text touching edges */
+    }
+
+    /* Center table properly */
+    #global_header-table {
+        margin-top: 10vw;          /* Adjust spacing on mobile */
+        width: 100%;
+    }
+
+    /* Highlighted text (text1) */
+    .text1 {
+        font-size: 4.5vw;          /* Match the parent size */
+    }
+}
