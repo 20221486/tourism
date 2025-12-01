@@ -1,0 +1,56 @@
+/* Home Margin */
+#home_header-margin {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vw;
+}
+
+/* Home Text */
+#home_header-text {
+    text-align: center;
+    font-size: 1.5vw;
+    line-height: 0.5vw;
+    color: rgb(254, 255, 235);
+    filter:drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.322));
+}
+
+/* Text Design */
+.text2, .text3 {
+        color:rgb(250, 162, 61);
+    }
+    .text2 {
+        filter: blur(2px);
+        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    }
+    .text2:hover {
+        filter: blur(0px);
+        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+        color:rgb(255, 250, 176);
+    }
+
+/* Destination Button */
+#button 
+{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 2vw;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background: rgba(202, 163, 119, 0.432);
+    border-radius: 20px;
+    padding: 10px 20px 10px;
+    font-size: 1vw;
+    line-height: 1;          
+}
+#button:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background: rgb(250, 162, 61);
+    color: black;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    font-weight: 700;
+    padding: 4%;
+}

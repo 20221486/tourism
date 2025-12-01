@@ -1,0 +1,99 @@
+/* Global Text */
+#global_header-text {
+    font-size: 1.2vw;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 0.5vw;
+    color: rgb(254, 255, 235);
+    filter:drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.322));
+}
+#global_header-table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vw;
+}
+/* Text Design 1 - Blur > Unblur Effect */
+.text-des1 {
+    color:rgb(250, 162, 61);
+    filter: blur(0.2rem) drop-shadow(0 0 1.5rem rgba(0, 0, 0, 0.9));
+    text-align: center;
+}
+.text-des1:hover {
+    color:rgb(255, 200, 100);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    filter: blur(0) drop-shadow(0 0 2rem rgb(0, 0, 0));
+}
+/* Colored Text */
+.white-text {
+    color: white;
+}
+
+/* Table Stylization */
+#table_style {
+margin-left: auto;
+margin-right: auto;
+margin-top: 1vw;
+
+letter-spacing: 10px;
+color: rgb(254, 255, 235);
+padding:10px;
+
+background-color: rgba(0, 0, 0, 0.5);
+border-radius: 5px;
+filter:drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.322));
+
+width: 1800px;
+}
+#table_style h2 {
+background-color: rgb(0, 0, 0);
+box-shadow: 0 1px 3px black;
+width: fit-content;
+padding: 10px;
+border-radius: 5px;  
+}
+#table_style-text:hover {
+color:rgb(250, 162, 61);
+transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+filter: drop-shadow(0 0 1rem rgba(250, 162, 61, 0.74));
+}
+#table_style img {
+padding: 10px;
+border-radius: 20px;
+box-shadow: 0 1px 3px black;
+}
+
+#table_style h4 {
+background-color: rgba(138, 109, 72, 0.384);
+box-shadow: 0 1px 3px black;
+width: fit-content;
+border-radius: 5px;
+text-align: center;
+
+margin-left: 10px;
+padding: 10px;
+}
+
+#table_style p {
+background-color: rgba(0, 0, 0, 0.192);
+box-shadow: 0 1px 3px black;
+width: fit-content;
+border-radius: 5px;
+
+margin-left: 10px;
+padding: 20px;
+letter-spacing: normal;
+}
+td {
+text-align: center;
+padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
