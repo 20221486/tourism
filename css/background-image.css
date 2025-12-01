@@ -1,0 +1,10 @@
+/* Home BG */
+body {
+    background-image: url("../multimedia/img/bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}

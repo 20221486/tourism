@@ -1,0 +1,53 @@
+/* Catalog Content */
+    #catalog_main-content {
+        text-align: left;
+        margin-left: 350px;
+        margin-right: auto;
+        margin-top: 1vw;
+
+        letter-spacing: 10px;
+        color: rgb(254, 255, 235);
+        padding:10px;
+
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+
+        width: 60%;
+    }
+
+    #catalog-main-content h2 {
+        background-color: rgb(0, 0, 0);
+        box-shadow: 0 1px 3px black;
+        width: fit-content;
+        padding: 10px;
+        border-radius: 5px;
+        
+    }
+
+    /* Catalog Content */
+    #catalog_header-text:hover {
+        color:rgb(250, 162, 61);
+        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+        filter: drop-shadow(0 0 1rem rgba(250, 162, 61, 0.74));
+    }
+
+    #catalog-main-content img {
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 0 1px 3px black;
+    }
+
+    #catalog-main-content h4, p {
+        background-color: rgba(0, 0, 0, 0.192);
+        box-shadow: 0 1px 3px black;
+        width: fit-content;
+        border-radius: 5px;
+
+        margin-left: 10px;
+        padding: 10px;
+    }
+
+    #address {
+        font-size:10px;
+        letter-spacing: normal;
+    }

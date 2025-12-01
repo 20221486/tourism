@@ -1,0 +1,15 @@
+/* Colored Text */
+.white-text {
+    color: white;
+}
+
+/* Text Design 1 - Blur > Unblur Effect */
+.text-des1 {
+    color:rgb(250, 162, 61);
+    filter: blur(0.2rem) drop-shadow(0 0 1.5rem rgba(250, 162, 61, 0.9));
+}
+.text-des1:hover {
+    color:rgb(255, 200, 100);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    filter: blur(0) drop-shadow(0 0 2rem rgba(255, 200, 100, 1));
+}
