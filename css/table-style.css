@@ -63,4 +63,53 @@
 
 p {
     letter-spacing: normal;
+
+}
+
+/* ============================= */
+/* MOBILE RESPONSIVENESS */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+    /* Main container becomes full-width and centered */
+    #table_style {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        letter-spacing: 2px;       /* More readable on mobile */
+        padding: 15px;
+    }
+
+    /* Headings scale properly */
+    #table_style h2 {
+        font-size: 5vw;
+        padding: 8px 12px;
+    }
+
+    /* Body text adjusts for readability */
+    #table_style h4,
+    #table_style p {
+        font-size: 4vw;
+        margin-left: 0;            /* Remove offset */
+        width: auto;               /* No "fit-content" shrinking */
+        padding: 8px 12px;
+    }
+
+    /* Address link becomes touch-friendly */
+    #address {
+        font-size: 3.5vw;
+        margin-left: 0;
+        padding: 8px 12px;
+    }
+
+    /* Images scale properly instead of overflowing */
+    #table_style img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+    }
 }
