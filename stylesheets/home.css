@@ -57,4 +57,66 @@
 
 a {
     text-decoration: none;
+
+}
+
+/* ============================= */
+/* MOBILE RESPONSIVENESS */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+    /* Margin for home header area */
+    #home_header-margin {
+        margin-top: 25vw;          /* More natural spacing for phones */
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 10px;           /* Prevent text touching edges */
+    }
+
+    /* Header text */
+    #home_header-text {
+        font-size: 5vw;            /* Scales well on mobile */
+        line-height: 6vw;          /* Fixes tiny spacing */
+        text-align: center;
+    }
+
+    /* Highlighted/blur-hover text */
+    .text2, .text3 {
+        font-size: 5vw;            /* Match main text */
+    }
+
+    .text2 {
+        filter: blur(1px);         /* Softer blur on small screens */
+    }
+
+    .text2:hover {
+        filter: blur(0);           
+        color: rgb(255, 250, 176);
+    }
+
+    /* Destination Button */
+    #button {
+        font-size: 4vw;            /* Proper size for thumbs */
+        padding: 12px 28px;        /* Stable shape on mobile */
+        border-radius: 15px;
+        margin-top: 8vw;
+
+        display: block;            /* Center button on mobile */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Hover (tap) effect stays visual but does not expand the button */
+    #button:hover {
+        padding: 12px 28px;        /* Prevents layout shifting */
+        background: rgb(250, 162, 61);
+        font-weight: 700;
+    }
+
+    /* Links inside buttons */
+    a {
+        font-size: inherit;        /* Matches button’s text size */
+        text-decoration: none;
+    }
 }
